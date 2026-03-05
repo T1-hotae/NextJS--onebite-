@@ -42,7 +42,6 @@ export default function SearchableLayout({
         />
         <button onClick={onSubmit}>검색</button>
       </div>
-
       {children}
     </div>
   );
